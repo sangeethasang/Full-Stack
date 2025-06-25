@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-wrap: pretty;
+  /* border: 1px solid red; */
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  /* background-color: #eff2f7; */
+  font-family: "'Segoe UI', sans-serif";
+  background-color: #121212;
+  color: #666666;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+  /* -webkit-font-smoothing: antialiased; */
+  /* font-optical-sizing: auto; */
+}
+.grid-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.componentSpacing{
+    padding: 3rem 0rem;
+}
+.screenSize{
+    max-width: 120rem;
+    margin: auto;
+}
+main{
+    width: 100%;
+    height: auto;
+}
+/* :::::SCROLL BAR CODE S T A R T S::::: */
+
+/* Width and height of the scrollbar */
+::-webkit-scrollbar {
+  width: 1.5rem;
+  /* Vertical scrollbar */
+  height: 1rem;
+  /* Horizontal scrollbar */
+}
+
+/* Track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: #e3e4e6;
+  border-radius: 0.5rem;
+}
+
+/* Scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #cececf;
+  /* border-radius: 5px; */
+}
+
+/* On hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b9b9ba;
+}
+
+/* :::::SCROLL BAR CODE E N D S::::: */
+.fullStackBox h2{
+    color:#ffed29;
+    font-size: 40px;
+    font-weight: 700;
+}
+.softwareBox h3{
+    font-size: 3rem;
+    color: #333333;
+}
+.softwareBox h4{
+    font-size:2rem ;
+    color: #121212;
+}
+.softwareBox img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid#ffed29;
+}
+.pythonBox img{
+    width: auto;
+    height: 20rem ;
+}
+.reactJsBox img{
+    width: auto;
+    height: 20rem;
+}
+.phpBlock{
+    background-color: #fff;
+    border-radius: 2rem;
+    padding:1rem 1rem;
+    margin: 10rem 3rem;
+}
+.pythonBlock{
+    background-color: #fff;
+    border-radius: 2rem;
+    padding:1rem 1rem;
+    margin: 10rem 3rem;
+}
+.reactJsBlock{
+     background-color: #fff;
+    border-radius: 2rem;
+    padding:1rem 1rem;
+    margin: 10rem 3rem;
+}
+.softwareBox h4{
+    background-color: #ffed29;
+    border-radius: 3rem;
+    padding: 1rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+.dflex {
+  display: flex;
+  /* without this wont work */
+  align-items: center;
+  /* top & bottom Alignment */
+  justify-content: center;
+  /* left & right Alignment */
+}
+
+.dflex-col {
+  display: flex;
+  flex-direction: column;
+  /* makes top to bottom align */
+  align-items: center;
+  /* Behaves like a justify-content */
+  justify-content: center;
+  /* Behaves like a align-items */
+  text-align: center;
+}
+
+.dflex-start {
+  display: flex;
+  flex-direction: column;
+  /* without this wont work */
+  align-items: center;
+  /* top & bottom Alignment */
+  justify-content: start;
+  /* left & right Alignment */
+}
+.cardMain{
+    /* background-color: #f6fefe; */
+    /* border-radius: 2rem; */
+}
+ul{
+    font-size: 1.5rem;
+    color: #333333;
+}
+/* Small devices (landscape phones, upto 576px and below) */
+/* @media (width <=576px) */
+@media (max-width: 576px) {
+
+  .grid-1,
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+    padding: 0rem 1rem;
+  }
+
+}
+
+/* TABLET RESPONSIVE CODE */
+@media (min-width: 577px) and (max-width: 768px) {}
+
+/* @media (min-width: 769px) and (max-width: 992px) */
+@media (min-width:769px) and (max-width: 992px) {}
+
+/* @media (min-width: 993px) and (max-width: 1200px) */
+@media (min-width:993px) and (max-width:1200px) {}
+
+/* @media (min-width: 1200px)  */
+@media (width:1200px) {}

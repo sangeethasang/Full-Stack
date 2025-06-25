@@ -100,19 +100,19 @@ main{
     background-color: #fff;
     border-radius: 2rem;
     padding:1rem 1rem;
-    margin: 10rem 3rem;
+    margin: 3rem 3rem;
 }
 .pythonBlock{
     background-color: #fff;
     border-radius: 2rem;
     padding:1rem 1rem;
-    margin: 10rem 3rem;
+    margin: 3rem 3rem;
 }
 .reactJsBlock{
      background-color: #fff;
     border-radius: 2rem;
     padding:1rem 1rem;
-    margin: 10rem 3rem;
+    margin: 3rem 3rem;
 }
 .softwareBox h4{
     background-color: #ffed29;
@@ -150,10 +150,7 @@ main{
   justify-content: start;
   /* left & right Alignment */
 }
-.cardMain{
-    /* background-color: #f6fefe; */
-    /* border-radius: 2rem; */
-}
+
 ul{
     font-size: 1.5rem;
     color: #333333;
